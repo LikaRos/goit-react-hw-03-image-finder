@@ -84,8 +84,7 @@ export class App extends Component {
   //   };
 
   render() {
-    const { isModalOpen, query } = this.state;
-    const { images, status, isLoadMore } = this.state;
+    const { images, isLoadMore } = this.state;
     //  if (status === STATUS.Error) {
     //    return <></>;
     //  }
@@ -112,7 +111,6 @@ export class App extends Component {
         />
         {/* {images.total_pages > images.page && ( */}
         <Button
-          className="loadMoreBtn"
           type="button"
           textContent="Load more"
           handlerClick={this.handleLoadMore}
