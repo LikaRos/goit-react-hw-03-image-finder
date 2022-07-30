@@ -27,10 +27,3 @@ ul {
   display: block;
   margin: 0 auto;
 }
-.loadMore {
-  display: block;
-  margin: auto;
-  color: white;
-  background-color: blue;
-  padding: 10px;
-}

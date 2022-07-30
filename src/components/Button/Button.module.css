@@ -1,4 +1,7 @@
 .btn {
-  color: blue;
+  display: block;
+  margin: auto;
+  color: white;
+  background-color: blue;
   padding: 10px;
 }

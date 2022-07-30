@@ -7,4 +7,6 @@
 }
 ul {
   list-style: none;
+  margin: 0 auto;
+  padding-inline-start: 0px;
 }

@@ -111,7 +111,7 @@ export class App extends Component {
         />
 
         <Button
-          className="loadMore"
+          className="btn"
           type="button"
           textContent="Load more"
           handlerClick={this.handleLoadMore}
