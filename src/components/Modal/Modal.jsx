@@ -19,11 +19,11 @@ export class Modal extends Component {
     }
   };
   render() {
-    const { children } = this.props;
+    const { children, onClose } = this.props;
 
     return (
       <>
-        <div className={styles.backdrop}>
+        <div className={styles.backdrop} onClick={onClose}>
           <div className={styles.modalDiv}>{children}</div>
         </div>
       </>
@@ -33,4 +33,5 @@ export class Modal extends Component {
 
 Modal.propTypes = {
   onClose: PropTypes.func.isRequired,
+  children: PropTypes.node.isRequired,
 };
